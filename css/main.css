@@ -1,0 +1,24 @@
+body {
+  border: 2px solid red;
+  display: block;
+  flex-wrap: wrap;
+}
+header {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  background-color: orange;
+  width: 50%;
+  height: inherit;
+  order: 1;
+}
+.name {
+  background-color: yellow;
+  width: 50%;
+  height: inherit;
+  order:  2;
+}
+.title-img {
+  background-color: green;
+}
