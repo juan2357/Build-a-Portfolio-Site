@@ -38,7 +38,7 @@ header p {
 }
 .featured-work {
   background-color: blue;
-  height: 50vh;
+  /*height: 50vh;*/
   text-align: left;
 }
 h3 {
@@ -49,17 +49,14 @@ h3 {
 }
 article {
   width: 100%;
-  height: 80%;
+  height: inherit;
 }
 .img-1 {
   background-color: purple;
-
 }
 .img-2 {
   background-color: violet;
-
 }
 .img-3 {
   background-color: pink;
-
 }
