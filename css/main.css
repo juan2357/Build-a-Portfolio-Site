@@ -1,40 +1,54 @@
+* {
+  margin: 0;
+  padding; 0;
+}
 body {
   border: 2px solid red;
   display: block;
   flex-wrap: wrap;
   height: 100vh;
   color: white;
+  font-size: 4em;
 }
 header {
   width: 100%;
-  height: 25vh;
+  height: 15vh;
   display: flex;
+}
+header img {
+  width: 100%;
 }
 .logo {
   background-color: orange;
-  width: 100%;
+  width: 33%;
 }
 .name {
   background-color: yellow;
   width: 100%;
+  color: black;
 }
 .title-img {
   background-color: green;
-  height: 25vh;
+  height: 35vh;
 }
 .featured-work {
   background-color: blue;
   height: 50vh;
+
 }
-/*.img-1 {
+article {
+  width: 100%;
+  height: 80%;
+}
+.img-1 {
   background-color: purple;
-  height: 33%;
+
 }
 .img-2 {
   background-color: violet;
-  height: 33%;
+
 }
 .img-3 {
   background-color: pink;
-  height: 33%;
-}*/
+
+}
