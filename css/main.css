@@ -2,23 +2,39 @@ body {
   border: 2px solid red;
   display: block;
   flex-wrap: wrap;
+  height: 100vh;
+  color: white;
 }
 header {
   width: 100%;
-  height: auto;
+  height: 25vh;
+  display: flex;
 }
 .logo {
   background-color: orange;
-  width: 50%;
-  height: inherit;
-  order: 1;
+  width: 100%;
 }
 .name {
   background-color: yellow;
-  width: 50%;
-  height: inherit;
-  order:  2;
+  width: 100%;
 }
 .title-img {
   background-color: green;
+  height: 25vh;
 }
+.featured-work {
+  background-color: blue;
+  height: 50vh;
+}
+/*.img-1 {
+  background-color: purple;
+  height: 33%;
+}
+.img-2 {
+  background-color: violet;
+  height: 33%;
+}
+.img-3 {
+  background-color: pink;
+  height: 33%;
+}*/
