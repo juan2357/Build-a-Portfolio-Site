@@ -14,6 +14,7 @@ header {
   width: 100%;
   height: 15vh;
   display: flex;
+  text-align: right;
 }
 header img {
   width: 100%;
@@ -38,6 +39,10 @@ header p {
 .featured-work {
   background-color: blue;
   height: 50vh;
+  text-align: left;
+}
+h3 {
+  padding: 2%;
 }
 .featured-work p {
   padding: 2%;
