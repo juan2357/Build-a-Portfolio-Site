@@ -1,9 +1,9 @@
 * {
   margin: 0;
   padding; 0;
+  width: 100%;
 }
 body {
-  border: 2px solid red;
   display: block;
   flex-wrap: wrap;
   height: 100vh;
@@ -18,6 +18,9 @@ header {
 header img {
   width: 100%;
 }
+header p {
+  text-align: right;
+}
 .logo {
   background-color: orange;
   width: 33%;
@@ -26,6 +29,7 @@ header img {
   background-color: yellow;
   width: 100%;
   color: black;
+  padding: 1% 4% 0 0;
 }
 .title-img {
   background-color: green;
@@ -34,7 +38,9 @@ header img {
 .featured-work {
   background-color: blue;
   height: 50vh;
-
+}
+.featured-work p {
+  padding: 2%;
 }
 article {
   width: 100%;
