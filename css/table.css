@@ -1,0 +1,23 @@
+@media screen and (min-width: 700px) {
+  header {
+    height: 20vh;
+  }
+  .logo {
+    padding-top: 2%;
+  }
+  .name {
+    padding: 2% 4% 0 0;
+  }
+  .title-img {
+    height: 42vh;
+  }
+  .featured-work {
+    width: inherit;
+  }
+  .featured-work h3 {
+    padding: 2% 0 0 4%;
+  }
+  .featured-work p {
+    padding-left: 4%;
+  }
+}
