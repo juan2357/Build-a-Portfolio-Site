@@ -1,54 +1,70 @@
 * {
-  margin: 0;
-  padding; 0;
-  width: 100%;
+  padding: 0;
+  margin:0;
 }
 body {
-  display: block;
-  flex-wrap: wrap;
+  display: block;;
+  width: 95vw;
   height: 100vh;
   color: white;
-  font-size: 4em;
+  margin: 0 auto;
+  font-size: 1em;
 }
 header {
   width: 100%;
   height: 15vh;
   display: flex;
-  text-align: right;
-}
-header img {
-  width: 100%;
-}
-header p {
+  flex-wrap: wrap;
   text-align: right;
 }
 .logo {
   background-color: orange;
-  width: 33%;
+  width: 10%;
+  float: left;
+}
+.name-title {
+  background-color: yellow;
+  width: 90%;
+  color: black;
 }
 .name {
-  background-color: yellow;
-  width: 100%;
-  color: black;
-  padding: 1% 4% 0 0;
+  padding: 2% 5% 0 0
+}
+.title {
+  padding-right: 5%
 }
 .title-img {
-  background-color: green;
-  height: 35vh;
+  height: 40vh;
+  background-color: rgb(185, 136, 41);
+}
+.pyramid {
+  height: 100%;
+  display: block;
+  margin: auto;
 }
 .featured-work {
   background-color: blue;
   text-align: left;
+  height: 5vh;
+  padding-top: 2%;
+  padding-left: 2%;
 }
-h3 {
-  padding: 2%;
+.works {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .featured-work p {
   padding: 2%;
 }
-article {
-  width: 100%;
-  height: inherit;
+.work {
+  width: calc(100%/3);
+  height: 35vh;
+}
+.work img {
+  width: 90%;
+  margin: 0 auto;
 }
 .img-1 {
   background-color: purple;
