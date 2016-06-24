@@ -1,0 +1,53 @@
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  body {
+    width: 100%;
+    font-size: 2em;
+    max-height: 100vh;
+  }
+  .logo {
+    width: 50%;
+  }
+  .name-title {
+    width: 50%;
+  }
+  .title-img {
+    width: 100%;
+  }
+
+  .work {
+    width: inherit;
+  }
+}
+@media screen and (max-width: 599px) {
+  body {
+    width: 100%;
+    font-size: 1.3em;
+    height: 100vh;
+  }
+  .logo {
+    width: 20%;
+    height: auto;
+  }
+  .title-img {
+    width: 100%;
+    height: 25vh;
+  }
+  .pyramid {
+    margin: 0 auto;
+  }
+  .name-title {
+    width: 80%;
+  }
+  .title-img {
+    width: 100%;
+  }
+  .featured-work {
+    text-align: center;
+  }
+  .works {
+    display: flex;
+  }
+  .work {
+    width: inherit;
+  }
+}

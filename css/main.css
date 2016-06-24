@@ -3,12 +3,12 @@
   margin:0;
 }
 body {
-  display: block;;
+  display: block;
   width: 95vw;
   height: 100vh;
   color: white;
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 header {
   width: 100%;
