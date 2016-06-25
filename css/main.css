@@ -48,6 +48,7 @@ header {
   height: 5vh;
   padding-top: 2%;
   padding-left: 2%;
+  text-align: center;
 }
 .works {
   width: 100%;
@@ -62,10 +63,14 @@ header {
   width: calc(100%/3);
   height: 35vh;
 }
-.work img {
+.sensoree {
+  width: 79%;
+}
+.falcon, .dog {
   width: 90%;
   margin: 0 auto;
 }
+
 .img-1 {
   background-color: purple;
 }
