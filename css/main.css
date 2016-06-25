@@ -8,7 +8,7 @@ body {
   height: 100vh;
   color: white;
   margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 header {
   width: 100%;
@@ -26,6 +26,7 @@ header {
   background-color: yellow;
   width: 90%;
   color: black;
+  padding-top: 2%;
 }
 .name {
   padding: 2% 5% 0 0
