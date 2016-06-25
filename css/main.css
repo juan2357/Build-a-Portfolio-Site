@@ -6,10 +6,10 @@ body {
   display: block;
   width: 95vw;
   height: 100vh;
-  color: white;
   margin: 0 auto;
   font-size: 1.5em;
   font-family: 'Amatic SC', cursive;
+  color: rgb(187,138,76);
 }
 header {
   width: 100%;
@@ -19,19 +19,17 @@ header {
   text-align: right;
 }
 .logo {
-  background-color: orange;
   width: 10%;
   float: left;
 }
 .name-title {
-  background-color: yellow;
   width: 90%;
-  color: black;
   padding-top: 2%;
 }
 .name {
   padding-right: 5%;
   font-family: 'Seaweed Script', cursive;
+  color: rgb(185,136,41)
 }
 .title {
   padding-right: 5%
@@ -46,7 +44,6 @@ header {
   margin: auto;
 }
 .featured-work {
-  background-color: blue;
   text-align: left;
   height: 5vh;
   padding-top: 2%;
@@ -72,14 +69,4 @@ header {
 .falcon, .dog {
   width: 90%;
   margin: 0 auto;
-}
-
-.img-1 {
-  background-color: purple;
-}
-.img-2 {
-  background-color: violet;
-}
-.img-3 {
-  background-color: pink;
 }
