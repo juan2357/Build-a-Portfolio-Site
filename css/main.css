@@ -9,6 +9,7 @@ body {
   color: white;
   margin: 0 auto;
   font-size: 1.5em;
+  font-family: 'Amatic SC', cursive;
 }
 header {
   width: 100%;
@@ -29,7 +30,8 @@ header {
   padding-top: 2%;
 }
 .name {
-  padding: 2% 5% 0 0
+  padding-right: 5%;
+  font-family: 'Seaweed Script', cursive;
 }
 .title {
   padding-right: 5%
